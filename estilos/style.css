@@ -7,14 +7,12 @@ body {
     font-family: 'Lexend','Georgia', serif;
     background: linear-gradient(45deg, rgb(201, 201, 201) , rgb(255, 255, 255)) ;
     background-repeat: no-repeat;
-    overflow-x: hidden;
-    
+    overflow-x: hidden;    
 }
 
 main {
-    
-    max-width: 600px;
-    margin: 0 auto;
+    width: 95vw; /* mais largo, mas com margem */
+    margin: 10px auto;
     background-color: white;
     text-align: center;
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.151);
@@ -67,17 +65,16 @@ figure {
 
 figure img {
     width: 100%;
-    height: 667px; /* ou qualquer altura desejada */
+    height: 550px; /* ou qualquer altura desejada */
     object-fit: cover; /* recorta as bordas e preenche sem deformar */
     object-position: center; /* foca no topo ou centro */
     border-radius: 10px;
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.151);
-    
 }
 
 figcaption {
     position: absolute;
-    bottom: 270px;
+    bottom: 320px;
     left: 50%; /* joga o canto esquerdo no meio */
     transform: translateX(-50%); /* recua metade da largura para centralizar */
     color: white;
@@ -96,7 +93,7 @@ section {
     background-color: rgb(24, 41, 75);
     color: aliceblue; 
     padding: 20px 30px;
-    font-size: 16px;
+    font-size: 13px;
     line-height: 1.6;
     font-style: italic;
     transform: translateY(-20px);
