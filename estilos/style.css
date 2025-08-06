@@ -38,7 +38,7 @@ nav {
     align-items: center;
     justify-content: space-evenly;
     padding-bottom: 10px;
-    font-size: 20px; /* Aumentado */
+    font-size: 14px; /* Aumentado */
 }
 
 nav a {
@@ -76,7 +76,7 @@ figure img {
 
 figcaption {
     position: absolute;
-    bottom: 50px;
+    bottom: 220px;
     left: 50%; /* joga o canto esquerdo no meio */
     transform: translateX(-50%); /* recua metade da largura para centralizar */
     color: white;
