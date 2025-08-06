@@ -67,7 +67,7 @@ figure {
 
 figure img {
     width: 100%;
-    height: 600px; /* ou qualquer altura desejada */
+    height: 400px; /* ou qualquer altura desejada */
     object-fit: cover; /* recorta as bordas e preenche sem deformar */
     object-position: center; /* foca no topo ou centro */
     border-radius: 10px;
