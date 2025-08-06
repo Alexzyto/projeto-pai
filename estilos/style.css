@@ -62,6 +62,7 @@ nav a:hover {
 figure {
     margin: 0;
     padding: 0; /* zera margens */
+    position: relative;
     
 }
 
@@ -76,7 +77,7 @@ figure img {
 
 figcaption {
     position: absolute;
-    bottom: 340px;
+    bottom: 30px;
     left: 50%; /* joga o canto esquerdo no meio */
     transform: translateX(-50%); /* recua metade da largura para centralizar */
     color: white;
