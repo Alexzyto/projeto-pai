@@ -76,7 +76,7 @@ figure img {
 
 figcaption {
     position: absolute;
-    bottom: 280px;
+    bottom: 340px;
     left: 50%; /* joga o canto esquerdo no meio */
     transform: translateX(-50%); /* recua metade da largura para centralizar */
     color: white;
