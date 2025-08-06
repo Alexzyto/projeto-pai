@@ -1,0 +1,7 @@
+@media screen and (max-width: 800px) {
+    /* CONFIGURAÇÃO PARA CELULAR */
+
+    main {
+        max-width: 700px;
+    }
+}

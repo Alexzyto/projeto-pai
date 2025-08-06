@@ -12,12 +12,13 @@ body {
 }
 
 main {
+    
     max-width: 600px;
     margin: 0 auto;
     background-color: white;
     text-align: center;
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.151);
-    padding: 0 20px; /* garante a borda branca */
+    padding: 0 15px; /* garante a borda branca */
     box-sizing: border-box;
 }
 
