@@ -11,8 +11,8 @@ body {
 }
 
 main {
-    width: 95vw; /* mais largo, mas com margem */
-    margin: 10px auto;
+    width: 85vw; /* mais largo, mas com margem */
+    margin: 20px auto;
     background-color: white;
     text-align: center;
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.151);
@@ -29,7 +29,7 @@ header h1 {
     margin: 0;
     font-family: 'Georgia', serif;
     color: #0c2a48;
-    font-size: 30px;
+    font-size: 22px;
     font-weight: normal;
 }
 
@@ -38,14 +38,14 @@ nav {
     align-items: center;
     justify-content: space-evenly;
     padding-bottom: 10px;
-    font-size: 14px; /* Aumentado */
+    font-size: 12px; /* Aumentado */
 }
 
 nav a {
     text-decoration: none;
     color: #0c2a48;
     transition: transform 0.2s ease-in-out, color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-    padding: 10px 20px; /* já reserva espaço */
+    padding: 10px 12px; /* já reserva espaço */
     border-radius: 20px;
 }
 
@@ -67,7 +67,7 @@ figure {
 
 figure img {
     width: 100%;
-    height: 650px; /* ou qualquer altura desejada */
+    height: 600px; /* ou qualquer altura desejada */
     object-fit: cover; /* recorta as bordas e preenche sem deformar */
     object-position: center; /* foca no topo ou centro */
     border-radius: 10px;
@@ -81,22 +81,23 @@ figcaption {
     transform: translateX(-50%); /* recua metade da largura para centralizar */
     color: white;
     font-family: 'Birthstone', cursive;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: bold;
     text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
     line-height: 1;
     background-color: #0c2a4886;
     border-radius: 10px;
-    width: 300px;
+    width: 210px;
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.151);
     }
 
 section {
     background-color: rgb(24, 41, 75);
     color: aliceblue; 
-    padding: 20px 30px;
-    font-size: 13px;
+    padding: 15px 20px;
+    font-size: 11px;
     line-height: 1.6;
     font-style: italic;
-    transform: translateY(-20px);
+    transform: translateY(-15px);
+    border-radius: 0px 0px 8px 8px;
 }
