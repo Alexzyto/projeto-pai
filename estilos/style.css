@@ -59,23 +59,8 @@ nav a:hover {
     
 }
 
-h2 {
-    text-align: center;
-    font-family: 'Lexend', sans-serif;
-    font-size: 24px;
-    font-weight: 600;
-    color: #0c2a48;
-}
-
-.titulo-central {
-    display: inline-block;
-    width: auto;
-    text-align: center;
-}
-
-.emoji {
-    font-size: 24px;
-    vertical-align: middle;
+h2#laranja {
+    font-size: 17px;
 }
 
 figure {
@@ -135,7 +120,7 @@ section {
     font-weight: 400;
 }
 
-.intro-mensagem h2 {
+.intro-mensagem > h2 {
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 20px;
