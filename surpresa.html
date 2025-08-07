@@ -26,16 +26,30 @@
             <a id="mensagem" href="mensagem.html">Mensagem</a>
             <a id="surpresa" href="surpresa.html">Surpresa</a>
         </nav>
-        
+
+            <!-- Caixa de presente -->
+        <div id="presente-fechado">
+            <img src="imagens/presente-fechado.png" alt="Presente fechado" style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 10px; box-shadow: 0px 0px 50px rgba(0,0,0,0.1);">
+            <button class="botao-comecar" onclick="abrirPresente()">Abrir Presente 🎁</button>
+        </div>
+
+        <!-- Presente revelado (inicialmente escondido) -->
+        <div id="presente-aberto" style="display: none;">
             <figure>
-                <img src="imagens/chinelo.png" alt="Familia"/>
+                <img src="imagens/chinelo.png" alt="Chinelo Linus" />
             </figure>
-    
             <section>
-                Para comemorar voce irá ganhar esse chinelo da marca Linus.
+                Para comemorar você irá ganhar esse chinelo da marca Linus.<br>
                 A sandália Linus Chumbo carrega uma cor clássica, mas marcante. Uma ótima ideia para quem quer dar um toque mais urbano no visual. A sandália mais confortável que já experimentou. 😎
             </section>
-        
+        </div>
     </main>
+
+    <script>
+        function abrirPresente() {
+            document.getElementById("presente-fechado").style.display = "none";
+            document.getElementById("presente-aberto").style.display = "block";
+        }
+    </script>
 </body>
 </html>
