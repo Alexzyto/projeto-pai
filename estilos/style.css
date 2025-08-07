@@ -28,7 +28,7 @@ header {
 header h1 {
     margin: 0;
     font-family: 'Georgia', serif;
-    color: #0c2a48;
+    color: rgb(24, 41, 75);
     font-size: 22px;
     font-weight: normal;
 }
@@ -43,15 +43,15 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #0c2a48;
+    color: rgb(24, 41, 75);
     transition: transform 0.2s ease-in-out, color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-    padding: 10px 12px; /* já reserva espaço */
+    padding: 10px 20px; /* já reserva espaço */
     border-radius: 20px;
 }
 
 nav a:hover {
     transform: scale(1.1); /* aumenta 10% */
-    background-color: #0c2a48;
+    background-color: rgb(24, 41, 75);
     color: aliceblue;
     padding: 10px;
     padding-left: 20px;
@@ -90,7 +90,7 @@ figcaption {
     border-radius: 10px;
     width: 210px;
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.151);
-    }
+}
 
 section {
     background-color: rgb(24, 41, 75);
@@ -101,4 +101,44 @@ section {
     font-style: italic;
     transform: translateY(-15px);
     border-radius: 0px 0px 8px 8px;
+}
+
+.intro-mensagem {
+    background-color: #f0f4fa;
+    color: #0c2a48;
+    padding: 30px 20px;
+    margin: 40px 20px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.8;
+    font-weight: 400;
+}
+
+.intro-mensagem h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #0c2a48;
+    font-family: 'Lexend', sans-serif;
+}
+
+.botao-comecar {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 24px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: #0c2a48;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.botao-comecar:hover {
+    background-color: #18325c;
+    transform: scale(1.05);
 }
